@@ -1,0 +1,368 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #000; */
+    padding: 10px 20px;
+    margin: 10px 60px;
+}
+
+.logo a {
+    color: #ffffff;
+    text-decoration: none;
+}
+img{
+    width: 35%;
+}
+li{
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+   
+}
+
+.nav-links a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.get-franchise,
+.order-online {
+    /* /* background-color: #e60000; */
+    border-radius: 50px;
+    padding: 20px;
+}
+li{
+    display: flex;
+    align-content: center;
+}
+.get-franchise{
+    border: 2px solid #e60000;
+    background-color: black;
+    color: #ffffff;
+}
+.order-online{
+    background-color:#e60000 ;
+    height: 90%;
+/* width: 100%; */
+    color: #ffffff; 
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.fa-solid{
+    margin: 0px 5px 0px 8px;
+    font-size: 2.5rem;
+    border: none;
+}
+.banner{
+    width: 100%;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.brands-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.brands-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.brands-section h1 span {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.brands-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.brand {
+    background-color: #333;
+    padding: 10px 0px 0px 0px;
+    border-radius: 5px;
+    width: 300px;
+    height: 120PX;
+    text-align: center;
+}
+
+.brand img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px ;
+    /* margin-bottom: 200px; */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .brands {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+.logo1{
+    width: 70%;
+}
+.logo2{
+    width: 70%;
+}
+.logo3{
+    width: 70%;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.franchise-section {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.franchise-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.franchise-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.franchise {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 50px 100px 10px 100px;
+}
+
+.franchise-info {
+    max-width: 50%;
+    
+}
+
+.franchise-info h3 {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.franchise-info h4 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.franchise-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.franchise-info .btn {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.franchise-info .btn i {
+    margin-left: 10px;
+}
+
+.franchise-info .btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.franchise-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.combination-1{
+    width:100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .franchise {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .franchise-info {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+/* .second-franchise{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+} */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.express-franchise-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.express-franchise-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.express-franchise {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.franchise-card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.franchise-card img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.franchise-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.franchise-info h3 {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.franchise-info h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.franchise-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.franchise-info .btn {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.franchise-info .btn i {
+    margin-left: 10px;
+}
+
+.franchise-info .btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .franchise-card {
+        width: 100%;
+    }
+}
+
+
+
+
+
